@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "skills": [
+    {
+      "id": "research-integrity",
+      "version": "0.1.0",
+      "title": { "en": "Research integrity", "zh": "科研诚信" },
+      "description": {
+        "en": "Evidence-first checks for literature, text, figures, data and statistics.",
+        "zh": "面向文献、正文、图件、数据与统计的证据核查。"
+      },
+      "url": "https://zerowall.chengxunkeji.cn/stable/catalog/skills/research-integrity/0.1.0.zip",
+      "bytes": 4481,
+      "sha256": "dda239a18ec0bee7d50fd41cd33a4fdfaef84a85a9338f368d04c55292bd9365",
+      "names": ["research-integrity"]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{ "extends": "./tsconfig.build.json", "compilerOptions": { "rootDir": ".", "noEmit": true, "emitDeclarationOnly": false, "lib": ["ES2024", "DOM", "DOM.Iterable"] }, "include": ["src/**/*.ts", "src/**/*.tsx", "test/**/*.ts", "test/**/*.tsx"] }

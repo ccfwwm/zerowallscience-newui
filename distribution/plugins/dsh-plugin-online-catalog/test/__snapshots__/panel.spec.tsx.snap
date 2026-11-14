@@ -1,0 +1,3 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`online catalog page > updates only installed items and routes plugins and skills by their list 1`] = `"Online plugins and skillsAdd capabilities from the live ZeroWall catalog without replacing the desktop application.Refresh catalogUpdate installed itemsPluginsPlugin with skill in namesome-skill-plugin · 1.0.0 → 1.1.0Plugin descriptionUpdateUpdateNew pluginnew-plugin · 1.0.0 → 1.1.0Plugin descriptionInstallInstallSkillsWorkflowworkflow · 1.0.0 → 1.1.0Plugin descriptionUpdateUpdate"`;

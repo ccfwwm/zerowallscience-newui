@@ -1,0 +1,32 @@
+{
+  "name": "@zerowall/dsh-plugin-online-catalog",
+  "version": "0.1.1",
+  "host": "./lib/index.js",
+  "client": "./lib/client.js",
+  "remote": "./lib/typert.remote-client.js",
+  "dsh": {
+    "min": "0.2.2-rc.1",
+    "max": "0.2.2-rc.1"
+  },
+  "requiredServices": [
+    "pluginManager",
+    "zerowallSkills"
+  ],
+  "optionalServices": [],
+  "capabilities": [
+    "online-plugin-catalog",
+    "online-skill-catalog"
+  ],
+  "permissions": [
+    "files",
+    "network"
+  ],
+  "profiles": [
+    "development",
+    "stable"
+  ],
+  "migrationVersion": 1,
+  "restartRequired": false,
+  "rollbackSupported": true,
+  "applicationVersion": "0.2.2-rc.1"
+}

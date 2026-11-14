@@ -1,0 +1,3 @@
+- insert:
+    - id: zerowall-online-catalog
+      name: '@zerowall/dsh-plugin-online-catalog'

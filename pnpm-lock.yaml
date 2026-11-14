@@ -2451,6 +2451,103 @@ importers:
         specifier: ^4.1.10
         version: 4.1.11(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/coverage-v8@4.1.11)(happy-dom@20.11.6)(jsdom@29.1.1(@noble/hashes@2.4.0))(vite@8.2.2(@types/node@22.20.1)(esbuild@0.27.7)(jiti@2.7.0)(tsx@4.23.13)(yaml@2.9.1))
 
+  distribution/plugins/dsh-plugin-online-catalog:
+    dependencies:
+      '@deepseek-ai/schemastery':
+        specifier: link:../../../vendor/schemastery
+        version: link:../../../vendor/schemastery
+      semver:
+        specifier: 7.8.5
+        version: 7.8.5
+      zod:
+        specifier: 4.4.3
+        version: 4.4.3
+    devDependencies:
+      '@deepseek-ai/cordis':
+        specifier: 4.1.0
+        version: link:../../../vendor/cordis
+      '@deepseek-ai/dsh-api-gateway':
+        specifier: 0.2.2-rc.1
+        version: link:../../../packages/api/gateway
+      '@deepseek-ai/dsh-api-remotes':
+        specifier: 0.2.2-rc.1
+        version: link:../../../packages/api/remotes
+      '@deepseek-ai/dsh-app-boot':
+        specifier: 0.2.2-rc.1
+        version: link:../../../packages/boot/app-boot
+      '@deepseek-ai/dsh-atomic-write':
+        specifier: 0.2.2-rc.1
+        version: link:../../../packages/util/atomic-write
+      '@deepseek-ai/dsh-client-locale':
+        specifier: 0.2.2-rc.1
+        version: link:../../../packages/client/locale
+      '@deepseek-ai/dsh-client-store':
+        specifier: 0.2.2-rc.1
+        version: link:../../../packages/client/store
+      '@deepseek-ai/dsh-client-ui-layout':
+        specifier: 0.2.2-rc.1
+        version: link:../../../packages/client/ui-layout
+      '@deepseek-ai/dsh-client-ui-plugin-manager':
+        specifier: 0.2.2-rc.1
+        version: link:../../../packages/client/ui-plugin-manager
+      '@deepseek-ai/dsh-client-ui-primitives':
+        specifier: 0.2.2-rc.1
+        version: link:../../../packages/client/ui-primitives
+      '@deepseek-ai/dsh-client-ui-renderer':
+        specifier: 0.2.2-rc.1
+        version: link:../../../packages/client/ui-renderer
+      '@deepseek-ai/dsh-client-ui-settings':
+        specifier: 0.2.2-rc.1
+        version: link:../../../packages/client/ui-settings
+      '@deepseek-ai/dsh-client-ui-slots':
+        specifier: 0.2.2-rc.1
+        version: link:../../../packages/client/ui-slots
+      '@deepseek-ai/dsh-home-paths':
+        specifier: 0.2.2-rc.1
+        version: link:../../../packages/util/home-paths
+      '@deepseek-ai/dsh-plugin-manager':
+        specifier: 0.2.2-rc.1
+        version: link:../../../packages/boot/plugin-manager
+      '@deepseek-ai/dsh-plugin-market-index':
+        specifier: 0.2.2-rc.1
+        version: link:../../../packages/util/plugin-market-index
+      '@deepseek-ai/dsh-typert-generator':
+        specifier: 0.2.2-rc.1
+        version: link:../../../packages/typert/generator
+      '@deepseek-ai/dsh-typert-protocol':
+        specifier: 0.2.2-rc.1
+        version: link:../../../packages/typert/protocol
+      '@testing-library/react':
+        specifier: ^16.3.3
+        version: 16.3.3(@testing-library/dom@10.4.2)(@types/react-dom@18.3.7(@types/react@18.3.31))(@types/react@18.3.31)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@types/react':
+        specifier: 18.3.31
+        version: 18.3.31
+      '@types/semver':
+        specifier: ^7.7.0
+        version: 7.8.0
+      '@zerowall/dsh-plugin-skills':
+        specifier: 0.1.3
+        version: link:../dsh-plugin-skills
+      esbuild:
+        specifier: 0.27.7
+        version: 0.27.7
+      jsdom:
+        specifier: 29.1.1
+        version: 29.1.1(@noble/hashes@2.4.0)
+      jszip:
+        specifier: 3.10.1
+        version: 3.10.1
+      react:
+        specifier: 18.3.1
+        version: 18.3.1
+      typescript:
+        specifier: 6.0.3
+        version: 6.0.3
+      vitest:
+        specifier: ^4.1.10
+        version: 4.1.11(@opentelemetry/api@1.9.1)(@types/node@22.20.1)(@vitest/coverage-v8@4.1.11)(happy-dom@20.11.6)(jsdom@29.1.1(@noble/hashes@2.4.0))(vite@8.2.2(@types/node@22.20.1)(esbuild@0.27.7)(jiti@2.7.0)(tsx@4.23.13)(yaml@2.9.1))
+
   distribution/plugins/dsh-plugin-python:
     dependencies:
       '@deepseek-ai/dsh-home-paths':
