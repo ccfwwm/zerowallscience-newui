@@ -134,7 +134,7 @@
     "typescript": "6.0.3",
     "zod": "4.4.3",
     "@types/node": "24.10.1",
-    "tsx": "^4.22.4",
+    "tsx": "^4.23.15",
     "vitest": "^4.0.18",
     "esbuild": "0.27.7",
     "@deepseek-ai/dsh-typert-protocol": "0.2.2-rc.1",
