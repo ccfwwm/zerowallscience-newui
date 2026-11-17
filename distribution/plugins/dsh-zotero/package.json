@@ -243,7 +243,7 @@
     "shiki": "^4.4.3",
     "simple-icons": "16.31.0",
     "typescript": "^5.9.0",
-    "use-sync-external-store": "1.6.0",
+    "use-sync-external-store": "1.7.0",
     "vitest": "^4.1.8",
     "zustand": "~4.5.7",
     "@deepseek-ai/dsh-tool-executor-native": "0.2.2-rc.1",
